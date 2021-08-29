@@ -1,0 +1,35 @@
+{
+  "name": "calclator-electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devel": "concurrently \"cd react-src && npm start\"", 
+    "build": "cd react-src && npm run build && cd .. && sudo electron-builder"
+  },
+  "keywords": [],
+  "author": "Mad Flasher",
+  "homepage": "",
+  "license": "ISC",
+  "email": "jayeshseth45@gmail.com",
+  "devDependencies": {
+    "electron": "^13.2.3",
+    "electron-is-dev": "^2.0.0"
+  },
+  "build": {
+    "appId": "com.calculator.electron",
+    "linux": {
+      "target": [
+        "AppImage",
+        "deb",
+        "rpm",
+        "apk",
+        "pacman",
+        "snap"
+      ],
+      "category": "Utility"
+    },
+    "compression": "maximum"
+  }
+}
