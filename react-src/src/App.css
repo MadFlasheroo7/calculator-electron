@@ -1,3 +1,30 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: grid;
+  align-items: end;
+}
+
+.extra {
+  padding: 20px;
+  color: #000;
+}
+
+.blabla {
+  display: grid;
+  align-items: center;
+  place-items: center;
+  justify-content: left;
+  background-color: #000;
+  padding: 20px;
+}
+
 .App {
   text-align: center;
 }
@@ -15,13 +42,13 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  height: 100vh;
+  display: grid;
+  place-items: flex-end;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  overflow-x: hidden;
 }
 
 .App-link {
