@@ -1,5 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
+  
 }
 
 html,
@@ -8,6 +9,7 @@ body {
   height: 100vh;
   overflow: hidden;
   display: grid;
+  background-color: #212121;
   align-items: end;
 }
 

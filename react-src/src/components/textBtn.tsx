@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const textBtnStyle = makeStyles(() => ({
     light: {
-        fontSize: 'calc(10px + 3vmin)',
+        fontSize: 'calc(5px + 2vmin)',
         fontWeight: 'bold',
         backgroundColor: red.light,
         borderRadius: '20px',
@@ -15,7 +15,7 @@ const textBtnStyle = makeStyles(() => ({
         }
     },
     dark: {
-        fontSize: 'calc(10px + 3vmin)',
+        fontSize: 'calc(5px + 2vmin)',
         fontWeight: 'bold',
         backgroundColor: red.dark,
         height: '75px',

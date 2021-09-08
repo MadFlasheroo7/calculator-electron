@@ -21,66 +21,66 @@ const App = () => {
   const classes = useStyless();
   return (
     <div className={classes.root} >
-      <Grid container item xs={3} className={classes.lul}>
-        <ExtraButton mode="light" >Extra</ExtraButton>
+      <Grid container item xs={2} className={classes.lul}>
+        <ExtraButton mode="dark" >Extra</ExtraButton>
       </Grid>
       <Grid container spacing={2}>
         <Grid item xs={3}>
-          <NumButton mode="light">0</NumButton>
+          <NumButton mode="dark">0</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light">( )</NumButton>
+          <NumButton mode="dark">( )</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <OperationButton mode="light" >/</OperationButton>
+          <OperationButton mode="dark" >/</OperationButton>
         </Grid>
         <Grid item xs={3}>
-          <OperationButton mode="light" >+</OperationButton>
+          <OperationButton mode="dark" >+</OperationButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >9</NumButton>
+          <NumButton mode="dark" >9</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >8</NumButton>
+          <NumButton mode="dark" >8</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >7</NumButton>
+          <NumButton mode="dark" >7</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <OperationButton mode="light" >-</OperationButton>
+          <OperationButton mode="dark" >-</OperationButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >6</NumButton>
+          <NumButton mode="dark" >6</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >5</NumButton>
+          <NumButton mode="dark" >5</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >4</NumButton>
+          <NumButton mode="dark" >4</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <OperationButton mode="light" >*</OperationButton>
+          <OperationButton mode="dark" >*</OperationButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >3</NumButton>
+          <NumButton mode="dark" >3</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >2</NumButton>
+          <NumButton mode="dark" >2</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <NumButton mode="light" >1</NumButton>
+          <NumButton mode="dark" >1</NumButton>
         </Grid>
         <Grid item xs={3}>
-          <OperationButton mode="light" >%</OperationButton>
+          <OperationButton mode="dark" >%</OperationButton>
         </Grid>
         <Grid item xs={3}>
-          <TextButton mode="light" >Del</TextButton>
+          <TextButton mode="dark" >Del</TextButton>
         </Grid>
         <Grid item xs={6}>
-          <TextButton mode="light" >Clear All</TextButton>
+          <TextButton mode="dark" >Clear All</TextButton>
         </Grid>
         <Grid item xs={3}>
-          <OperationButton mode="light" >=</OperationButton>
+          <OperationButton mode="dark" >=</OperationButton>
         </Grid>
       </Grid>
     </div>

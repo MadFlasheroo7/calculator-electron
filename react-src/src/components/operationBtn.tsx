@@ -4,7 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const optBtnStyle = makeStyles(() => ({
     light: {
-        fontSize: 'calc(10px + 3vmin)',
+        fontSize: 'calc(5px + 3vmin)',
         fontWeight: 'bold',
         backgroundColor: orange.light,
         borderRadius: '20px',
@@ -15,7 +15,7 @@ const optBtnStyle = makeStyles(() => ({
         }
     },
     dark: {
-        fontSize: 'calc(10px + 3vmin)',
+        fontSize: 'calc(5px + 3vmin)',
         fontWeight: 'bold',
         backgroundColor: orange.dark,
         height: '75px',
