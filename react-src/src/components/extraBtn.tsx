@@ -8,6 +8,7 @@ const extraBtnStyle = makeStyles(() => ({
         fontWeight: 'bold',
         backgroundColor: pink.light,
         borderRadius: '20px',
+        marginBottom: '10px',
         height: '60px',
         color: pinkText.light,
         '&:hover': {
@@ -19,6 +20,7 @@ const extraBtnStyle = makeStyles(() => ({
         fontWeight: 'bold',
         backgroundColor: pink.dark,
         height: '60px',
+        marginBottom: '10px',
         borderRadius: '20px',
         color: pinkText.dark,
         '&:hover': {
